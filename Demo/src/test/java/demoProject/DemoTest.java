@@ -2,9 +2,11 @@ package demoProject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class Demo {
-	public static void main(String[] args) {
+public class DemoTest {
+	@Test
+	public void demo() {
 		
 		WebDriver d =new ChromeDriver();
 		d.get("https://www.saucedemo.com/");
